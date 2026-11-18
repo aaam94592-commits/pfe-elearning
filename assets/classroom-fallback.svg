@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustration d'une salle de classe">
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#334c78"/>
+      <stop offset="1" stop-color="#75a8c9"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" x2="1">
+      <stop offset="0" stop-color="#324b58"/>
+      <stop offset="1" stop-color="#527c7e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#background)"/>
+  <path d="M0 0h1200v95H0z" fill="#fff" opacity=".12"/>
+  <rect x="228" y="128" width="744" height="366" rx="22" fill="url(#board)"/>
+  <path d="M302 229h402M302 285h520M302 341h338" stroke="#fff" stroke-linecap="round" stroke-width="16" opacity=".65"/>
+  <circle cx="795" cy="279" r="79" fill="#f3c96b" opacity=".9"/>
+  <path d="M0 566h1200v234H0z" fill="#25364f" opacity=".7"/>
+  <g fill="#f2b27a">
+    <circle cx="230" cy="558" r="52"/><circle cx="450" cy="546" r="52"/>
+    <circle cx="690" cy="558" r="52"/><circle cx="928" cy="546" r="52"/>
+  </g>
+  <g fill="#f4f6fb">
+    <path d="M135 631q95-91 190 0v100H135z"/><path d="M355 619q95-91 190 0v112H355z"/>
+    <path d="M595 631q95-91 190 0v100H595z"/><path d="M833 619q95-91 190 0v112H833z"/>
+  </g>
+  <g fill="#dfa970">
+    <rect x="103" y="710" width="256" height="25" rx="12"/><rect x="326" y="710" width="256" height="25" rx="12"/>
+    <rect x="566" y="710" width="256" height="25" rx="12"/><rect x="804" y="710" width="256" height="25" rx="12"/>
+  </g>
+</svg>
